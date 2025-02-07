@@ -169,11 +169,11 @@ class MentorDashboard extends StatelessWidget {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Text('$studentsEnrolled students'),
-                              SizedBox(width: 8),
-                              IconButton(
-                                icon: Icon(Icons.delete, color: Colors.red),
-                                onPressed: () => _deleteCourse(course.id),
-                              ),
+                              // SizedBox(width: 8),
+                              // IconButton(
+                              //   icon: Icon(Icons.delete, color: Colors.red),
+                              //   onPressed: () => _deleteCourse(course.id),
+                              // ),
                             ],
                           ),
                         ),
